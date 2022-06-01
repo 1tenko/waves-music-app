@@ -5,7 +5,7 @@ import { SongContainer } from "./styles/Song.styled";
 const Song = ({ currentSong }) => {
   return (
     <SongContainer>
-      <img src={currentSong.cover}></img>
+      <img src={currentSong.cover} alt={currentSong.name}></img>
       <h2>{currentSong.name}</h2>
       <h3>{currentSong.artist}</h3>
     </SongContainer>

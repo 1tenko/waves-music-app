@@ -7,6 +7,10 @@ const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
         background-color: #18181b;
         color: white;
+        font-family: 'Fira Code';
+    }
+    h1,h2,h3 {
+        color: #e5e5e5
     }
     
 `;

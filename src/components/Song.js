@@ -2,12 +2,12 @@ import React from "react";
 
 import { SongContainer } from "./styles/Song.styled";
 
-const Song = () => {
+const Song = ({ currentSong }) => {
   return (
     <SongContainer>
-      <h1>Picture</h1>
-      <h1>Song Name</h1>
-      <h1>Artist</h1>
+      <img src={currentSong.cover}></img>
+      <h2>{currentSong.name}</h2>
+      <h3>{currentSong.artist}</h3>
     </SongContainer>
   );
 };

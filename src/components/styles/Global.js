@@ -5,12 +5,15 @@ const GlobalStyles = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        background-color: #18181b;
-        color: white;
-        font-family: 'Fira Code';
+        color: #e5e5e5;
+        font-family: 'Lato', sans-serif;
     }
-    h1,h2,h3 {
-        color: #e5e5e5
+    html {
+        background-color: #18181b;
+    }
+
+    h3,h4 {
+        font-weight: 400;
     }
     
 `;

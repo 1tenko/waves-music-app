@@ -6,15 +6,22 @@ import {
   faAngleRight,
 } from "@fortawesome/free-solid-svg-icons";
 
+//Styles
+import {
+  PlayerContainer,
+  TimeControl,
+  PlayControl,
+} from "./styles/Player.styled";
+//
 const Player = () => {
   return (
-    <div className="Player">
-      <div className="TimeControl">
+    <PlayerContainer>
+      <TimeControl>
         <p>Start Time</p>
         <input type="range" />
         <p>End Time</p>
-      </div>
-      <div className="PlayControl">
+      </TimeControl>
+      <PlayControl>
         <FontAwesomeIcon className="SkipBack" size={"2x"} icon={faAngleLeft} />
         <FontAwesomeIcon className="Play" size={"2x"} icon={faPlay} />
         <FontAwesomeIcon
@@ -22,8 +29,8 @@ const Player = () => {
           size={"2x"}
           icon={faAngleRight}
         />
-      </div>
-    </div>
+      </PlayControl>
+    </PlayerContainer>
   );
 };
 

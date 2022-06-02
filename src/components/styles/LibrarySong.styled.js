@@ -12,7 +12,7 @@ export const LibrarySongStyle = styled.div`
     background: #404040;
   }
   &.selected {
-    background: #404040;
+    background: #7e2b50;
   }
 `;
 

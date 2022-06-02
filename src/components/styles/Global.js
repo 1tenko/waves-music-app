@@ -5,7 +5,7 @@ const GlobalStyles = createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        color: #e5e5e5;
+        color: white;
         font-family: 'Lato', sans-serif;
     }
     html {

@@ -13,7 +13,6 @@ const LibrarySong = ({
   setCurrentSong,
   audioRef,
   id,
-  key,
   isPlaying,
   setSongs,
 }) => {

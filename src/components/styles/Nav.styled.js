@@ -11,6 +11,10 @@ export const NavStyle = styled.nav`
     padding: 0.5rem;
   }
   button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
     background: transparent;
     border: 2px solid;
     cursor: pointer;

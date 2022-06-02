@@ -61,7 +61,46 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
-    //ADD MORE HERE
+    {
+      name: "Blessed",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2022/04/73f23095038f6f023083520706f3e5345f5dd682-1024x1024.jpg",
+      artist: "Moods, Yasper",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=32860",
+      color: ["#67B1DF", "#F3DAB6"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Pond Sketch",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2022/04/73f23095038f6f023083520706f3e5345f5dd682-1024x1024.jpg",
+      artist: "Sleepy Fish",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=32838",
+      color: ["#67B1DF", "#F3DAB6"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Eclaircie",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2022/05/d8344de22563af8eaec8f544c14711592eabef26-1024x1024.jpg",
+      artist: "Plusma, Guillaume Muschalle, Von Wegen",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=28905",
+      color: ["#FFFDC4", "#283C49"],
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Bronea",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2022/05/d8344de22563af8eaec8f544c14711592eabef26-1024x1024.jpg",
+      artist: "Plusma, Guillaume Muschalle",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=28903",
+      color: ["#FFFDC4", "#283C49"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 

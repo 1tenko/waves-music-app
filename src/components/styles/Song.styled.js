@@ -15,6 +15,6 @@ export const SongContainer = styled.div`
   }
   h3 {
     font-size: 1rem;
-    color: #e5e5e5;
+    color: #d6d3d1;
   }
 `;

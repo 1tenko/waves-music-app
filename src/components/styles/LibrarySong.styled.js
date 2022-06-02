@@ -9,10 +9,10 @@ export const LibrarySongStyle = styled.div`
     width: 30%;
   }
   &:hover {
-    background: #404040;
+    background: #44403c;
   }
   &.selected {
-    background: #7e2b50;
+    background: #722f37;
   }
 `;
 
@@ -22,6 +22,6 @@ export const SongDescription = styled.div`
     font-size: 1rem;
   }
   h4 {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
   }
 `;

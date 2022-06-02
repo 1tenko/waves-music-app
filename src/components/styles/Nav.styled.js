@@ -6,9 +6,9 @@ export const NavStyle = styled.nav`
   justify-content: space-around;
   align-items: center;
   h1 {
-    border-bottom: 2px solid #7e2b50;
-    border-top: 2px solid #7e2b50;
-    padding: 0.5rem;
+    border-bottom: 2px solid #722f37;
+    border-top: 2px solid #722f37;
+    padding: 0.5rem 1rem;
   }
   button {
     display: flex;
@@ -21,7 +21,7 @@ export const NavStyle = styled.nav`
     padding: 0.5rem;
     transition: all 0.5s ease;
     &:hover {
-      background: #7e2b50;
+      background: #722f37;
     }
   }
 `;

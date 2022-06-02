@@ -6,13 +6,13 @@ export const LibraryContainer = styled.div`
   left: 0;
   width: 20rem;
   height: 100%;
-  /* background-color: lightblue; */
-  box-shadow: 1px 2px 25px #404040;
-  background-color: #18181b;
+  box-shadow: 1px 2px 25px #44403c;
+  background-color: #1c1917;
   transform: translateX(-100%);
   transition: all 0.5s ease;
   opacity: 0;
-  /* overflow: scroll; */
+  overflow: scroll;
+  overflow-x: hidden;
   h2 {
     padding: 2rem;
   }

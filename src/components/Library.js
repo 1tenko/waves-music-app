@@ -4,7 +4,14 @@ import LibrarySong from "./LibrarySong";
 //Styles
 import { LibraryContainer } from "./styles/Library.styled";
 
-const Library = ({ songs, setCurrentSong, audioRef, isPlaying }) => {
+const Library = ({
+  songs,
+  currentSong,
+  setCurrentSong,
+  audioRef,
+  isPlaying,
+  setSongs,
+}) => {
   return (
     <LibraryContainer>
       <h2>Library</h2>
@@ -18,6 +25,8 @@ const Library = ({ songs, setCurrentSong, audioRef, isPlaying }) => {
             key={song.id}
             audioRef={audioRef}
             isPlaying={isPlaying}
+            currentSong={currentSong}
+            setSongs={setSongs}
           />
         ))}
       </div>

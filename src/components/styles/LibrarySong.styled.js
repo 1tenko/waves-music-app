@@ -11,6 +11,9 @@ export const LibrarySongStyle = styled.div`
   &:hover {
     background: #404040;
   }
+  &.selected {
+    background: #404040;
+  }
 `;
 
 export const SongDescription = styled.div`

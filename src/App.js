@@ -32,6 +32,16 @@ function App() {
     setSongInfo({ ...songInfo, currentTime: current, duration: duration });
   };
 
+  const songEndHandler = async () => {
+    let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
+    await setCurrentSong(songs[(currentIndex + 1) % songs.length]);
+    if (isPlaying) {
+      setTimeout(() => {
+        audioRef.current.play();
+      }, 100);
+    }
+  };
+
   return (
     <>
       <GlobalStyles />
@@ -67,6 +77,7 @@ function App() {
         onLoadedMetadata={timeUpdateHandler}
         ref={audioRef}
         src={currentSong.audio}
+        onEnded={songEndHandler}
       ></audio>
     </>
   );

@@ -6,8 +6,8 @@ export const NavStyle = styled.nav`
   justify-content: space-around;
   align-items: center;
   h1 {
-    border-bottom: 2px solid #722f37;
-    border-top: 2px solid #722f37;
+    border-bottom: 2px solid #881337;
+    border-top: 2px solid #881337;
     padding: 0.5rem 1rem;
   }
   button {
@@ -18,10 +18,10 @@ export const NavStyle = styled.nav`
     background: transparent;
     border: 2px solid;
     cursor: pointer;
-    padding: 0.5rem;
+    padding: 0.75rem;
     transition: all 0.5s ease;
     &:hover {
-      background: #722f37;
+      background: #881337;
     }
   }
   @media screen and (max-width: 768px) {

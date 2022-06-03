@@ -14,7 +14,6 @@ export const TimeControl = styled.div`
   align-items: center;
   input {
     width: 100%;
-    /* accent-color: #722f37; */
     -webkit-appearance: none;
     background: transparent;
     cursor: pointer;
@@ -34,7 +33,6 @@ export const TimeControl = styled.div`
     width: 90%;
   }
   .track {
-    background: lightblue;
     width: 100%;
     position: relative;
     border-radius: 1rem;

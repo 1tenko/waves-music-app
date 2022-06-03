@@ -14,6 +14,9 @@ export const TimeControl = styled.div`
   input {
     width: 100%;
     padding: 1rem 0rem;
+    accent-color: #722f37;
+    cursor: pointer;
+    color: #1c1917;
   }
   p {
     padding: 1rem;

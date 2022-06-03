@@ -28,7 +28,12 @@ const GlobalStyles = createGlobalStyle`
       border-radius: 20px;
       border: transparent;
     }
-    
+    .App {
+      transition: all 0.5s ease;
+    }
+    .library-active {
+      margin-left: 30%
+    }
       
 `;
 

@@ -17,4 +17,9 @@ export const SongContainer = styled.div`
     font-size: 1rem;
     color: #d6d3d1;
   }
+  @media screen and (max-width: 768px) {
+    img {
+      width: 50%;
+    }
+  } ;
 `;

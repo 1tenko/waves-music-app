@@ -21,6 +21,9 @@ export const TimeControl = styled.div`
   p {
     padding: 1rem;
   }
+  @media screen and (max-width: 768px) {
+    width: 90%;
+  }
 `;
 
 export const PlayControl = styled.div`
@@ -31,5 +34,8 @@ export const PlayControl = styled.div`
   width: 30%;
   svg {
     cursor: pointer;
+  }
+  @media screen and (max-width: 768px) {
+    width: 60%;
   }
 `;

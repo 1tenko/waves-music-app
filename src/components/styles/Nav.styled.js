@@ -24,4 +24,9 @@ export const NavStyle = styled.nav`
       background: #722f37;
     }
   }
+  @media screen and (max-width: 768px) {
+    button {
+      z-index: 10;
+    }
+  }
 `;
